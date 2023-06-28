@@ -192,7 +192,7 @@ const Paginator = ({ objects, pages }) => {
     }
 
     useEffect(() => {
-        setRepositories(objects.slice(0, 9));
+        setRepositories(objects.slice(0, 10));
     }, [objects]);
 
     return (
